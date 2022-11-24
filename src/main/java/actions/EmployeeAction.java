@@ -118,7 +118,7 @@ public class EmployeeAction extends ActionBase{
          //登録中にエラーがなかった場合
 
          //セッションに登録完了のフラッシュメッセージを設定
-           putSessionScope(AttributeConst.FLUSH, MessageConst.I_REGISTERD.getMessage());
+           putSessionScope(AttributeConst.FLUSH, MessageConst.I_REGISTERED.getMessage());
 
          //一覧画面にリダイレクト
            redirect(ForwardConst.ACT_EMP, ForwardConst.CMD_INDEX);
